@@ -1,0 +1,18 @@
+Target dependency graph (6 targets)
+Target 'pathtracer' in project 'Assignment3'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'Assignment3'
+➜ Explicit dependency on target 'CGL' in project 'Assignment3'
+➜ Explicit dependency on target 'glew' in project 'Assignment3'
+➜ Explicit dependency on target 'glfw' in project 'Assignment3'
+➜ Explicit dependency on target 'pt31' in project 'Assignment3'
+Target 'pt31' in project 'Assignment3'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'Assignment3'
+➜ Explicit dependency on target 'CGL' in project 'Assignment3'
+➜ Explicit dependency on target 'glew' in project 'Assignment3'
+➜ Explicit dependency on target 'glfw' in project 'Assignment3'
+Target 'CGL' in project 'Assignment3'
+➜ Explicit dependency on target 'glew' in project 'Assignment3'
+➜ Explicit dependency on target 'glfw' in project 'Assignment3'
+Target 'glfw' in project 'Assignment3' (no dependencies)
+Target 'glew' in project 'Assignment3' (no dependencies)
+Target 'ZERO_CHECK' in project 'Assignment3' (no dependencies)

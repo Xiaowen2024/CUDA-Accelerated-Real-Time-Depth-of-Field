@@ -1,0 +1,1210 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5C3BC86F9F334E1FAF7744E0 /* uninstall */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E22484001E6B43A6920B0456 /* Build configuration list for PBXAggregateTarget "uninstall" */;
+			buildPhases = (
+				BCBE651BD0675275F7E4A626 /* Generate CMakeFiles/uninstall */,
+			);
+			dependencies = (
+				01690F6E791D48F5A5A64E93 /* PBXTargetDependency */,
+			);
+			name = uninstall;
+			productName = uninstall;
+		};
+		6E10AE019E0145FAAC38FABB /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F48606F72BFC4E10BFF58E4D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				A8B9DA5953A50696002CC4BA /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				3B384B6DA14E4072A343AA0B /* PBXTargetDependency */,
+				954F5C6D8100433886F63F76 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		ABCFC8D1139B480F8081BA92 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4D706DF87502446DA39711F1 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				F5E296EB74865C419505FF62 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		CB8E5BA5AFF743688C4AA129 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5EAF25E6700E454785E45317 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				8A3B5A0FD542436BB2459833 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		09B934D6D21E40A0B33B8D08 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/cocoa_window.m */ = {isa = PBXBuildFile; fileRef = EFB2784D8A444625AFB088CA /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/cocoa_window.m */; };
+		0A05081596194D00BA710E4C /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/window.c */ = {isa = PBXBuildFile; fileRef = 7E6820D1AB124DE0AB30D73D /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/window.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		1E7A470B905349B0BF10820C /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/osmesa_context.h */ = {isa = PBXBuildFile; fileRef = C270B9805B2F4166B05E6AEB /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/osmesa_context.h */; };
+		2B6E1AC95C174AFBA0FA567F /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/input.c */ = {isa = PBXBuildFile; fileRef = A2C4F0283F7E431DBDFB8E78 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/input.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		31E433DF8C8042E9B48B36CC /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/egl_context.h */ = {isa = PBXBuildFile; fileRef = B7D6F0D350D3475491F9097D /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/egl_context.h */; };
+		3501BA044E6B425382AAA256 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/posix_thread.h */ = {isa = PBXBuildFile; fileRef = EA4CE295B8DF402CB38E45CC /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/posix_thread.h */; };
+		3E7E08FE9E45465DA9C5970A /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/init.c */ = {isa = PBXBuildFile; fileRef = 58653A7E2697459587F8C126 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/init.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		683B87B7D1954C60979F87F2 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw/src/glfw_config.h */ = {isa = PBXBuildFile; fileRef = 7D216E50DB6442B68E620365 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw/src/glfw_config.h */; };
+		6957D94CD84B45D08B10BF57 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A41929B0CF01410AABFB5652 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/CMakeLists.txt */; };
+		6B29ED5533604DF9BC902A8C /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/context.c */ = {isa = PBXBuildFile; fileRef = 27260D37410E4E3997611302 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/context.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		6EA54A8103B94822B71B11A2 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/posix_thread.c */ = {isa = PBXBuildFile; fileRef = E64DFE2D7D67477498961A1B /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/posix_thread.c */; };
+		7448B1EF49124588869A8297 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/cocoa_monitor.m */ = {isa = PBXBuildFile; fileRef = 6FA3A6BEC0C94E1E8908CA2B /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/cocoa_monitor.m */; };
+		762E39DC735741D2A0DC77B5 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/vulkan.c */ = {isa = PBXBuildFile; fileRef = B7D40B4879134C1F972AEC61 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/vulkan.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		7924344966204B7496BC06B9 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/include/GLFW/glfw3native.h */ = {isa = PBXBuildFile; fileRef = 428D2074410C4C4B8BA8BDFE /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/include/GLFW/glfw3native.h */; };
+		BCADAEBFAEB443C2BA1C9557 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/cocoa_time.c */ = {isa = PBXBuildFile; fileRef = 18A0CB97E0C64374AD6A42C0 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/cocoa_time.c */; };
+		BFC2705460EA47BF8467B5A9 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/include/GLFW/glfw3.h */ = {isa = PBXBuildFile; fileRef = 5F75531DD7F24E339D43BAF3 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/include/GLFW/glfw3.h */; };
+		C048BD3077CF4CE5B754E631 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/cocoa_init.m */ = {isa = PBXBuildFile; fileRef = C353CBA62BB2401B9ED913C2 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/cocoa_init.m */; };
+		C6E728432B6048898E9A4816 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/cocoa_platform.h */ = {isa = PBXBuildFile; fileRef = A37AC914FE7D462E9916A0E7 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/cocoa_platform.h */; };
+		C7479CE6D82C480CB927598A /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/monitor.c */ = {isa = PBXBuildFile; fileRef = FAE3D6AC693841EF9191A276 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/monitor.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		CB8820A9BB9B484EA9CFA354 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/egl_context.c */ = {isa = PBXBuildFile; fileRef = 2EF5C4A67FB64FC99A06B3F2 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/egl_context.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		D26272FE51C44081B77A74BB /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/osmesa_context.c */ = {isa = PBXBuildFile; fileRef = 12A708A1F78249DEA585BC41 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/osmesa_context.c */; settings = {COMPILER_FLAGS = "-Wdeclaration-after-statement"; }; };
+		D64D39F23EF14811B096CC1D /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/internal.h */ = {isa = PBXBuildFile; fileRef = 8178FCFB54CC4C27BCB65E74 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/internal.h */; };
+		DB21E593A1EA4EA989D727A7 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/mappings.h */ = {isa = PBXBuildFile; fileRef = 16E3B853E0B04E3A9782A8BA /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/mappings.h */; };
+		DE681757D32E41F3B23CC105 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/nsgl_context.h */ = {isa = PBXBuildFile; fileRef = 839103E6471748FCB0D0630D /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/nsgl_context.h */; };
+		E327D95FADD84AB5B67C07A5 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/nsgl_context.m */ = {isa = PBXBuildFile; fileRef = 3965F9DA687E4949B1177BCF /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/nsgl_context.m */; };
+		E7736716C197449B98435A37 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/cocoa_joystick.h */ = {isa = PBXBuildFile; fileRef = BF9D6B9E05D049CFA803D0C9 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/cocoa_joystick.h */; };
+		FB4FD718159C43228B813001 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/cocoa_joystick.m */ = {isa = PBXBuildFile; fileRef = 6799B731746D4D90A41044B4 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/cocoa_joystick.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		3C7D96A0E6E546D48EA957CD /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		7ECEF3F01AD04347B05EFD77 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		900CCAAFDDE2444A841E2BE9 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		AE85D6A8A11A4DE4B46DFD3F /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		3AF2073B3F1B4AA0A27BEE4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 474412A8672646128C318D16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABCFC8D1139B480F8081BA92;
+			remoteInfo = ZERO_CHECK;
+		};
+		3BDAC6BEFC7A4F21A9D9C796 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 474412A8672646128C318D16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABCFC8D1139B480F8081BA92;
+			remoteInfo = ZERO_CHECK;
+		};
+		97057DA935934AFBA2654D09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 474412A8672646128C318D16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E10AE019E0145FAAC38FABB;
+			remoteInfo = ALL_BUILD;
+		};
+		B564D19E692741FBB8C01ECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 474412A8672646128C318D16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABCFC8D1139B480F8081BA92;
+			remoteInfo = ZERO_CHECK;
+		};
+		D0B21D23B764432FB85EDB20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 474412A8672646128C318D16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0269BB260A7345F7A5BEE77D;
+			remoteInfo = glfw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12A708A1F78249DEA585BC41 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/osmesa_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = osmesa_context.c; path = src/osmesa_context.c; sourceTree = SOURCE_ROOT; };
+		16E3B853E0B04E3A9782A8BA /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/mappings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = mappings.h; path = src/mappings.h; sourceTree = SOURCE_ROOT; };
+		18A0CB97E0C64374AD6A42C0 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/cocoa_time.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = cocoa_time.c; path = src/cocoa_time.c; sourceTree = SOURCE_ROOT; };
+		27260D37410E4E3997611302 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = context.c; path = src/context.c; sourceTree = SOURCE_ROOT; };
+		2EF5C4A67FB64FC99A06B3F2 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/egl_context.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = egl_context.c; path = src/egl_context.c; sourceTree = SOURCE_ROOT; };
+		3965F9DA687E4949B1177BCF /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/nsgl_context.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = nsgl_context.m; path = src/nsgl_context.m; sourceTree = SOURCE_ROOT; };
+		428D2074410C4C4B8BA8BDFE /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/include/GLFW/glfw3native.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3native.h; path = include/GLFW/glfw3native.h; sourceTree = SOURCE_ROOT; };
+		58653A7E2697459587F8C126 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/init.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = init.c; path = src/init.c; sourceTree = SOURCE_ROOT; };
+		5F75531DD7F24E339D43BAF3 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/include/GLFW/glfw3.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw3.h; path = include/GLFW/glfw3.h; sourceTree = SOURCE_ROOT; };
+		6799B731746D4D90A41044B4 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/cocoa_joystick.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_joystick.m; path = src/cocoa_joystick.m; sourceTree = SOURCE_ROOT; };
+		6FA3A6BEC0C94E1E8908CA2B /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/cocoa_monitor.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_monitor.m; path = src/cocoa_monitor.m; sourceTree = SOURCE_ROOT; };
+		7D216E50DB6442B68E620365 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw/src/glfw_config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = glfw_config.h; path = "/Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw/src/glfw_config.h"; sourceTree = "<absolute>"; };
+		7E6820D1AB124DE0AB30D73D /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/window.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = window.c; path = src/window.c; sourceTree = SOURCE_ROOT; };
+		8178FCFB54CC4C27BCB65E74 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = internal.h; path = src/internal.h; sourceTree = SOURCE_ROOT; };
+		839103E6471748FCB0D0630D /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/nsgl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nsgl_context.h; path = src/nsgl_context.h; sourceTree = SOURCE_ROOT; };
+		A2C4F0283F7E431DBDFB8E78 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/input.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = input.c; path = src/input.c; sourceTree = SOURCE_ROOT; };
+		A37AC914FE7D462E9916A0E7 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/cocoa_platform.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_platform.h; path = src/cocoa_platform.h; sourceTree = SOURCE_ROOT; };
+		A41929B0CF01410AABFB5652 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B7D40B4879134C1F972AEC61 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/vulkan.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = vulkan.c; path = src/vulkan.c; sourceTree = SOURCE_ROOT; };
+		B7D6F0D350D3475491F9097D /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/egl_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = egl_context.h; path = src/egl_context.h; sourceTree = SOURCE_ROOT; };
+		BF9D6B9E05D049CFA803D0C9 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/cocoa_joystick.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = cocoa_joystick.h; path = src/cocoa_joystick.h; sourceTree = SOURCE_ROOT; };
+		C270B9805B2F4166B05E6AEB /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/osmesa_context.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = osmesa_context.h; path = src/osmesa_context.h; sourceTree = SOURCE_ROOT; };
+		C353CBA62BB2401B9ED913C2 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/cocoa_init.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_init.m; path = src/cocoa_init.m; sourceTree = SOURCE_ROOT; };
+		C3E84F10108449CAB55979A0 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CD6E2639A7DE48FBAE276F79 /* glfw */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libglfw3.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD57B9A739224F6E9742A7AF /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E64DFE2D7D67477498961A1B /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/posix_thread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = posix_thread.c; path = src/posix_thread.c; sourceTree = SOURCE_ROOT; };
+		EA4CE295B8DF402CB38E45CC /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/posix_thread.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = posix_thread.h; path = src/posix_thread.h; sourceTree = SOURCE_ROOT; };
+		EFB2784D8A444625AFB088CA /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/cocoa_window.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; name = cocoa_window.m; path = src/cocoa_window.m; sourceTree = SOURCE_ROOT; };
+		FAE3D6AC693841EF9191A276 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/monitor.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = monitor.c; path = src/monitor.c; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCEAE96B24A8414387896624 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D5CEA9A79914789BCBF4156 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F75531DD7F24E339D43BAF3 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/include/GLFW/glfw3.h */,
+				428D2074410C4C4B8BA8BDFE /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/include/GLFW/glfw3native.h */,
+				BF9D6B9E05D049CFA803D0C9 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/cocoa_joystick.h */,
+				A37AC914FE7D462E9916A0E7 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/cocoa_platform.h */,
+				B7D6F0D350D3475491F9097D /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/egl_context.h */,
+				8178FCFB54CC4C27BCB65E74 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/internal.h */,
+				16E3B853E0B04E3A9782A8BA /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/mappings.h */,
+				839103E6471748FCB0D0630D /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/nsgl_context.h */,
+				C270B9805B2F4166B05E6AEB /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/osmesa_context.h */,
+				EA4CE295B8DF402CB38E45CC /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/posix_thread.h */,
+				7D216E50DB6442B68E620365 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw/src/glfw_config.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		400A2C0243E844BC8CDCE3A7 /* GLFW3 */ = {
+			isa = PBXGroup;
+			children = (
+				D29DC99CEC784473B731AE99 /* uninstall */,
+				EB506FA4D1864C7B856AF188 /* glfw */,
+			);
+			name = GLFW3;
+			sourceTree = "<group>";
+		};
+		5605788C9D364A4899BBB7DC /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				8415D4FDE8A2445C8CECCC08 /* CMake Rules */,
+				DD57B9A739224F6E9742A7AF /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		6E64AB79C2FD4C86B88E9D63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8415D4FDE8A2445C8CECCC08 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		C1768702645641ABA8F34C81 = {
+			isa = PBXGroup;
+			children = (
+				400A2C0243E844BC8CDCE3A7 /* GLFW3 */,
+				5605788C9D364A4899BBB7DC /* ALL_BUILD */,
+				D5ED255076DC4D32B5B25210 /* Products */,
+				6E64AB79C2FD4C86B88E9D63 /* Frameworks */,
+				FC6520F5724F46D684BDEC9D /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		C370988CD0254AC497FF7AA7 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C353CBA62BB2401B9ED913C2 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/cocoa_init.m */,
+				6799B731746D4D90A41044B4 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/cocoa_joystick.m */,
+				6FA3A6BEC0C94E1E8908CA2B /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/cocoa_monitor.m */,
+				18A0CB97E0C64374AD6A42C0 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/cocoa_time.c */,
+				EFB2784D8A444625AFB088CA /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/cocoa_window.m */,
+				27260D37410E4E3997611302 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/context.c */,
+				2EF5C4A67FB64FC99A06B3F2 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/egl_context.c */,
+				58653A7E2697459587F8C126 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/init.c */,
+				A2C4F0283F7E431DBDFB8E78 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/input.c */,
+				FAE3D6AC693841EF9191A276 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/monitor.c */,
+				3965F9DA687E4949B1177BCF /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/nsgl_context.m */,
+				12A708A1F78249DEA585BC41 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/osmesa_context.c */,
+				E64DFE2D7D67477498961A1B /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/posix_thread.c */,
+				B7D40B4879134C1F972AEC61 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/vulkan.c */,
+				7E6820D1AB124DE0AB30D73D /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/window.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		D29DC99CEC784473B731AE99 /* uninstall */ = {
+			isa = PBXGroup;
+			children = (
+				E4790E1CDC8B470EAFE15180 /* CMake Rules */,
+				C3E84F10108449CAB55979A0 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/CMakeLists.txt */,
+			);
+			name = uninstall;
+			sourceTree = "<group>";
+		};
+		D5ED255076DC4D32B5B25210 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD6E2639A7DE48FBAE276F79 /* glfw */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4790E1CDC8B470EAFE15180 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		EB506FA4D1864C7B856AF188 /* glfw */ = {
+			isa = PBXGroup;
+			children = (
+				3D5CEA9A79914789BCBF4156 /* Header Files */,
+				C370988CD0254AC497FF7AA7 /* Source Files */,
+				A41929B0CF01410AABFB5652 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/CMakeLists.txt */,
+			);
+			name = glfw;
+			sourceTree = "<group>";
+		};
+		FC6520F5724F46D684BDEC9D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0269BB260A7345F7A5BEE77D /* glfw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D4B593405FB4779B077C536 /* Build configuration list for PBXNativeTarget "glfw" */;
+			buildPhases = (
+				9D048F6BB0254A3BB1E5DD40 /* Sources */,
+				FCEAE96B24A8414387896624 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52F6A6EA41E74C618708B5CD /* PBXTargetDependency */,
+			);
+			name = glfw;
+			productName = glfw;
+			productReference = CD6E2639A7DE48FBAE276F79 /* glfw */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		474412A8672646128C318D16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1540;
+			};
+			buildConfigurationList = B45B5EF914EA4C4BBFB0CBD3 /* Build configuration list for PBXProject "GLFW" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				AE85D6A8A11A4DE4B46DFD3F /* Debug */,
+				3C7D96A0E6E546D48EA957CD /* Release */,
+				7ECEF3F01AD04347B05EFD77 /* MinSizeRel */,
+				900CCAAFDDE2444A841E2BE9 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = C1768702645641ABA8F34C81;
+			projectDirPath = "/Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw";
+			projectRoot = "";
+			targets = (
+				6E10AE019E0145FAAC38FABB /* ALL_BUILD */,
+				ABCFC8D1139B480F8081BA92 /* ZERO_CHECK */,
+				0269BB260A7345F7A5BEE77D /* glfw */,
+				CB8E5BA5AFF743688C4AA129 /* install */,
+				5C3BC86F9F334E1FAF7744E0 /* uninstall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3C8B9B9628600475EB03CBF8 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A8B9DA5953A50696002CC4BA /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		BCBE651BD0675275F7E4A626 /* Generate CMakeFiles/uninstall */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/uninstall";
+			outputPaths = (
+"/Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw/CMakeFiles/uninstall"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -P /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw/cmake_uninstall.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -P /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw/cmake_uninstall.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -P /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw/cmake_uninstall.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw
+  /opt/homebrew/Cellar/cmake/3.28.2/bin/cmake -P /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw/cmake_uninstall.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		F5E296EB74865C419505FF62 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw
+  make -f /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw
+  make -f /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw
+  make -f /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw
+  make -f /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D048F6BB0254A3BB1E5DD40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C048BD3077CF4CE5B754E631 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/cocoa_init.m */,
+				FB4FD718159C43228B813001 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/cocoa_joystick.m */,
+				7448B1EF49124588869A8297 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/cocoa_monitor.m */,
+				BCADAEBFAEB443C2BA1C9557 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/cocoa_time.c */,
+				09B934D6D21E40A0B33B8D08 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/cocoa_window.m */,
+				6B29ED5533604DF9BC902A8C /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/context.c */,
+				CB8820A9BB9B484EA9CFA354 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/egl_context.c */,
+				3E7E08FE9E45465DA9C5970A /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/init.c */,
+				2B6E1AC95C174AFBA0FA567F /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/input.c */,
+				C7479CE6D82C480CB927598A /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/monitor.c */,
+				E327D95FADD84AB5B67C07A5 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/nsgl_context.m */,
+				D26272FE51C44081B77A74BB /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/osmesa_context.c */,
+				6EA54A8103B94822B71B11A2 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/posix_thread.c */,
+				762E39DC735741D2A0DC77B5 /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/vulkan.c */,
+				0A05081596194D00BA710E4C /* /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src/window.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01690F6E791D48F5A5A64E93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABCFC8D1139B480F8081BA92 /* ZERO_CHECK */;
+			targetProxy = 3BDAC6BEFC7A4F21A9D9C796 /* PBXContainerItemProxy */;
+		};
+		3B384B6DA14E4072A343AA0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0269BB260A7345F7A5BEE77D /* glfw */;
+			targetProxy = D0B21D23B764432FB85EDB20 /* PBXContainerItemProxy */;
+		};
+		52F6A6EA41E74C618708B5CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABCFC8D1139B480F8081BA92 /* ZERO_CHECK */;
+			targetProxy = B564D19E692741FBB8C01ECA /* PBXContainerItemProxy */;
+		};
+		8A3B5A0FD542436BB2459833 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E10AE019E0145FAAC38FABB /* ALL_BUILD */;
+			targetProxy = 97057DA935934AFBA2654D09 /* PBXContainerItemProxy */;
+		};
+		954F5C6D8100433886F63F76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABCFC8D1139B480F8081BA92 /* ZERO_CHECK */;
+			targetProxy = 3AF2073B3F1B4AA0A27BEE4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06B22F28B90E46449CBDABE8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		075DFBD3BBFA4FEB8700D5B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		14D936BB4A8E4E17ACD9E8CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/build";
+			};
+			name = Release;
+		};
+		15521CB2C3CD48B1A96AA5C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		2AE49B00EEFC4A13B504E267 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2B02B509F53E4B4FB0ED5A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		370229407B414945A09F4F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3B272AB94D50416DA83FC872 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		74A154CBAEAC4DDAA71A0EC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7576D9EB01914222ACB62E60 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw/src/MinSizeRel";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/include","/Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src","/Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (" -fPIC     -DNDEBUG '-std=c99' -fPIC -Wall ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7C85596D55CD43FBB2653E80 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7F36F8908E0F42449C3C4E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		8B2CD562D9C3499C804D0EFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw/src/Debug";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/include","/Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src","/Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (" -fPIC    '-std=c99' -fPIC -Wall ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A6B15F8F4DB748DC9FD7B5F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A8C3D7B87AAF40B2B0A6EEDE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		ADC787BE81AB40B39FC1523D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		AE6C6E92239B4226B62A63E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk;
+				SYMROOT = "/Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/build";
+			};
+			name = Debug;
+		};
+		BAD04439E10C4F6EB0F44B54 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/build";
+			};
+			name = MinSizeRel;
+		};
+		BB7D3D3E5C1C454BBCD905E0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw/src/RelWithDebInfo";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/include","/Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src","/Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (" -fPIC        -DNDEBUG '-std=c99' -fPIC -Wall ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C1CBED003BDA471D9BA32021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw/src/Release";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",_GLFW_USE_CONFIG_H,GLEW_STATIC,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/include","/Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glfw/src","/Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/CGL/deps/glfw/src","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (" -fPIC     -DNDEBUG '-std=c99' -fPIC -Wall ","$(inherited)");
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = glfw3;
+				SECTORDER_FLAGS = "";
+				TARGET_TEMP_DIR = "/Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/build/glfw.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D5F7D1BCB6F0479AB65CB8C6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E98891A19BC245F7A12BD47F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/xcode/build";
+			};
+			name = RelWithDebInfo;
+		};
+		EC8F39F97C7A422F868317CE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FF94DA92C44C48DB9C44E1D5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = uninstall;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D706DF87502446DA39711F1 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74A154CBAEAC4DDAA71A0EC3 /* Debug */,
+				075DFBD3BBFA4FEB8700D5B7 /* Release */,
+				7C85596D55CD43FBB2653E80 /* MinSizeRel */,
+				D5F7D1BCB6F0479AB65CB8C6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5EAF25E6700E454785E45317 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC787BE81AB40B39FC1523D /* Debug */,
+				370229407B414945A09F4F9E /* Release */,
+				2AE49B00EEFC4A13B504E267 /* MinSizeRel */,
+				06B22F28B90E46449CBDABE8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9D4B593405FB4779B077C536 /* Build configuration list for PBXNativeTarget "glfw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B2CD562D9C3499C804D0EFB /* Debug */,
+				C1CBED003BDA471D9BA32021 /* Release */,
+				7576D9EB01914222ACB62E60 /* MinSizeRel */,
+				BB7D3D3E5C1C454BBCD905E0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B45B5EF914EA4C4BBFB0CBD3 /* Build configuration list for PBXProject "GLFW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE6C6E92239B4226B62A63E8 /* Debug */,
+				14D936BB4A8E4E17ACD9E8CA /* Release */,
+				BAD04439E10C4F6EB0F44B54 /* MinSizeRel */,
+				E98891A19BC245F7A12BD47F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E22484001E6B43A6920B0456 /* Build configuration list for PBXAggregateTarget "uninstall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15521CB2C3CD48B1A96AA5C3 /* Debug */,
+				2B02B509F53E4B4FB0ED5A7F /* Release */,
+				3B272AB94D50416DA83FC872 /* MinSizeRel */,
+				FF94DA92C44C48DB9C44E1D5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F48606F72BFC4E10BFF58E4D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F36F8908E0F42449C3C4E8A /* Debug */,
+				A6B15F8F4DB748DC9FD7B5F3 /* Release */,
+				A8C3D7B87AAF40B2B0A6EEDE /* MinSizeRel */,
+				EC8F39F97C7A422F868317CE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 474412A8672646128C318D16 /* Project object */;
+}

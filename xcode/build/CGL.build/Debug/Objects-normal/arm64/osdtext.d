@@ -1,0 +1,24 @@
+dependencies: \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/src/osdtext.cpp \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/include/CGL/osdtext.h \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glew/include/GL/glew.h \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/include/CGL/color.h \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/include/CGL/CGL.h \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/include/CGL/misc.h \
+  /Library/Frameworks/Mono.framework/Headers/ft2build.h \
+  /opt/homebrew/include/freetype2/freetype/config/ftheader.h \
+  /opt/homebrew/include/freetype2/freetype/freetype.h \
+  /opt/homebrew/include/freetype2/freetype/config/ftconfig.h \
+  /opt/homebrew/include/freetype2/freetype/config/ftoption.h \
+  /opt/homebrew/include/freetype2/freetype/config/ftstdlib.h \
+  /opt/homebrew/include/freetype2/freetype/config/integer-types.h \
+  /opt/homebrew/include/freetype2/freetype/config/public-macros.h \
+  /opt/homebrew/include/freetype2/freetype/config/mac-support.h \
+  /opt/homebrew/include/freetype2/freetype/fttypes.h \
+  /opt/homebrew/include/freetype2/freetype/ftsystem.h \
+  /opt/homebrew/include/freetype2/freetype/ftimage.h \
+  /opt/homebrew/include/freetype2/freetype/fterrors.h \
+  /opt/homebrew/include/freetype2/freetype/ftmoderr.h \
+  /opt/homebrew/include/freetype2/freetype/fterrdef.h \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/include/CGL/base64.h \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/include/CGL/console.h

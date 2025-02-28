@@ -1,0 +1,34 @@
+dependencies: \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/src/scene/gl_scene/sphere.cpp \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/src/scene/gl_scene/sphere.h \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/src/scene/gl_scene/scene.h \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/include/CGL/CGL.h \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/include/CGL/misc.h \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/include/CGL/color.h \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/deps/glew/include/GL/glew.h \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/src/scene/gl_scene/draw_style.h \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/src/scene/gl_scene/mesh_view.h \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/src/scene/bbox.h \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/src/pathtracer/ray.h \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/include/CGL/vector3D.h \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/include/CGL/vector4D.h \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/include/CGL/matrix4x4.h \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/src/scene/scene.h \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/src/scene/primitive.h \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/src/pathtracer/intersection.h \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/src/pathtracer/bsdf.h \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/include/CGL/matrix3x3.h \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/src/pathtracer/sampler.h \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/CGL/include/CGL/vector2D.h \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/src/util/random_util.h \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/src/util/image.h \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/src/scene/gl_scene/../collada/sphere_info.h \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/src/scene/gl_scene/../collada/collada_info.h \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/src/scene/gl_scene/../collada/material_info.h \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/src/scene/object.h \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/src/util/halfEdgeMesh.h \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/src/scene/collada/polymesh_info.h \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/src/util/sphere_drawing.h \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/src/application/visual_debugger.h \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/src/imgui/imgui.h \
+  /Users/xiaowenyuan/CUDA-Accelerated-Real-Time-Depth-of-Field/src/imgui/imconfig.h
