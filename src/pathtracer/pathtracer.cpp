@@ -232,11 +232,6 @@ Vector3D PathTracer::one_bounce_radiance(const Ray &r,
 
 
       return estimate_direct_lighting_hemisphere(r, isect);
-
-
-
-
-
 }
 
 Vector3D PathTracer::at_least_one_bounce_radiance(const Ray &r,
@@ -307,10 +302,7 @@ Vector3D PathTracer::at_least_one_bounce_radiance(const Ray &r,
         }
     }
 
-
     return L_out;
-
-
 }
 
 Vector3D PathTracer::est_radiance_global_illumination(const Ray &r) {
@@ -390,7 +382,8 @@ void PathTracer::raytrace_pixel(size_t x, size_t y) {
         dv = origin + dv;
         dv.x = dv.x / (sampleBuffer.w);
         dv.y = dv.y / (sampleBuffer.h);
-        Ray r = camera->generate_ray(dv.x, dv.y);
+        Vector2D samplesForLens = gridSampler->get_sample();
+        Ray r = camera->generate_ray_for_thin_lens(dv.x, dv.y, samplesForLens.x, samplesForLens.y * 2.0 * PI);
         r.depth = max_ray_depth;
         rad = est_radiance_global_illumination(r);
         float illm = rad.illum();
